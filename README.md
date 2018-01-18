@@ -22,12 +22,12 @@ TLDR: Install nodejs and mysql (and make a db/table as the mysql statement above
 # Installation (Step by Step) #
 
 ```
-ืgit clone https://github.com/Porrapat/long-poll.git
+git clone https://github.com/Porrapat/long-poll.git
 cd long-poll
 npm install
 ```
 
-* Config your MySQL database, Dump the data from longpoll.sql and fix index.js file.
+Config your MySQL database, Dump the data from longpoll.sql and fix index.js file.
 
 ```
 connection = mysql.createConnection({
@@ -53,7 +53,7 @@ nodemon index.js
 
 locate http://localhost:3000/
 
-* Try to insert or delete some records. You will see the web page will update it automatically every 1 second.
+Try to insert or delete some records. You will see the web page will update it automatically every 1 second.
 
 # Your homework #
 
